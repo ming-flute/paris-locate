@@ -8,7 +8,8 @@ repository = "https://github.com/ming-flute/paris-locate"
 readme = "README.md"
 license = "MPL-2.0"
 description = "A crate to add function name to paris's formatting output"
-categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+keywords =  ["shell", "terminal", "log", "cli", "function"]
+ categories = ["command-line-interface", "command-line-utilities"]
 
 
 
