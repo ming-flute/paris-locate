@@ -1,0 +1,18 @@
+[package]
+name = "paris-locate"
+version = "0.1.0"
+edition = "2021"
+authors = ["ming-flute"]
+homepage = "https://github.com/ming-flute/paris-locate"
+repository = "https://github.com/ming-flute/paris-locate"
+readme = "README.md"
+license = "MPL-2.0"
+description = "A crate to add function name to paris's formatting output"
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+
+
+
+[dependencies]
+paris = { version = "1.5", features = ["no_logger","timestamps","macros"] }
+stdext = "0.3.1"
+
