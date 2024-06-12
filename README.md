@@ -2,7 +2,7 @@
 
 1. 采用了paris进行log输出与彩色显示
 2. 使用std-ext::function_name获取函数名称 
-3. 采用https://github.com/sindresorhus/figures中的特殊符号为每一个宏配置了对应符号
+3. 采用https://github.com/sindresorhus/figures 中的特殊符号为每一个宏配置了对应符号
 
 | level    | symbol |
 |:---------|--------|
