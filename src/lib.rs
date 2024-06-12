@@ -27,7 +27,7 @@ mod tests {
         error!("This is going to <bright red>stderr</> {}", "WOOOO");
         warn!("This is a {} <yellow>BEWARE</>!", "warning");
         success!("{} went well, congrats!", "<bright green>Everything</>");
-
+        debug!("{}", "This is a debug message");
         match "a" {
             "a" => log!(
                 "It works inside a match as well!!! {}",
